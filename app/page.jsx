@@ -31,7 +31,7 @@ export default async function Home() {
     <div className="mt-8 flex flex-col gap-2">
       {contacts.map(contact => (
         <div >
-          <h3>{contact.firstName} {contact.lastName}</h3>
+          <h3 className=" text-indigo-500">{contact.firstName} {contact.lastName}</h3>
           <p className=" italic font-light">{contact.email}</p>
         </div>
       ))}
